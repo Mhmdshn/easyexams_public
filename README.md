@@ -1,4 +1,4 @@
-# Exam System Desktop
+# EasyExams
 
 Run school exams on your own computer, fully offline. Students join over your Wi-Fi or the computer's hotspot, take the exam in any browser, and most answers are marked the moment they submit.
 
@@ -8,7 +8,7 @@ This repository hosts the release downloads and release notes only.
 
 ## Install
 
-1. Download `Exam-System-Desktop-Setup-<version>-x64.exe` from the [latest release](https://github.com/Mhmdshn/easyexams/releases/latest).
+1. Download the installer (`.exe`) from the [latest release](https://github.com/Mhmdshn/easyexams/releases/latest).
 2. Open it and follow the installer. If Windows shows *Windows protected your PC*, click **More info → Run anyway**.
 3. On the activation screen, click **Open the licence store** to request a free trial or buy a licence. Your key appears under **My licences** in the store.
 
@@ -18,10 +18,10 @@ Updates install themselves after that, and your data is backed up first.
 
 ## Check your download
 
-Each release lists the installer's SHA-256 in `SHA256SUMS.txt`. In PowerShell:
+Each release lists the installer's SHA-256 in `SHA256SUMS.txt`. In PowerShell, in the folder you downloaded it to:
 
 ```powershell
-Get-FileHash .\Exam-System-Desktop-Setup-1.0.0-x64.exe -Algorithm SHA256
+Get-FileHash .\EasyExams-Setup-*.exe -Algorithm SHA256
 ```
 
 The value must match the one in the release.
@@ -31,6 +31,8 @@ The value must match the one in the release.
 - Works fully offline. Everything is stored on your computer.
 - Students join with a QR code from phones, tablets or laptops. Nothing to install on their devices.
 - Automatic marking for multiple choice, true/false, short-answer and number questions. Teachers mark written answers in one place.
+- AI-assisted marking of written answers with Large school and Institute licences.
+- Teachers can be assigned to their own classes and subjects.
 - Time limits, shuffled questions and choices, autosave and automatic submission.
 - Import students and questions from Excel, keep a question bank, and export results.
 
