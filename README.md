@@ -2,13 +2,13 @@
 
 Run school exams on your own computer, fully offline. Students join over your Wi-Fi or the computer's hotspot, take the exam in any browser, and most answers are marked the moment they submit.
 
-**[Download for Windows](https://github.com/Mhmdshn/easyexams/releases/latest)** · **[Licences and free trial](https://easyexams.raashidh.com)**
+**[Download for Windows](https://github.com/Mhmdshn/easyexams_public/releases/latest)** · **[Licences and free trial](https://easyexams.raashidh.com)**
 
 This repository hosts the release downloads and release notes only.
 
 ## Install
 
-1. Download the installer (`.exe`) from the [latest release](https://github.com/Mhmdshn/easyexams/releases/latest).
+1. Download the installer (`.exe`) from the [latest release](https://github.com/Mhmdshn/easyexams_public/releases/latest).
 2. Open it and follow the installer. If Windows shows *Windows protected your PC*, click **More info → Run anyway**.
 3. On the activation screen, click **Open the licence store** to request a free trial or buy a licence. Your key appears under **My licences** in the store.
 
